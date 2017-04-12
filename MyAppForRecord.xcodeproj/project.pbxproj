@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC7A13C017D7EB5B550D2006 /* libPods-MyAppForRecord.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 407CC74243D7827DF05DE90C /* libPods-MyAppForRecord.a */; };
+		EEA8B53A1E9DC0DC00503ACC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEA8B5391E9DC0DC00503ACC /* CoreGraphics.framework */; };
+		EEA8B53C1E9DC0E400503ACC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEA8B53B1E9DC0E400503ACC /* Foundation.framework */; };
+		EEA8B53E1E9DC0EC00503ACC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEA8B53D1E9DC0EC00503ACC /* Security.framework */; };
+		EEA8B5401E9DC0F300503ACC /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEA8B53F1E9DC0F300503ACC /* MobileCoreServices.framework */; };
+		EEA8B5421E9DC0FA00503ACC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEA8B5411E9DC0FA00503ACC /* SystemConfiguration.framework */; };
 		EEEAC09E1E9B6BF100AB7183 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEAC09D1E9B6BF100AB7183 /* main.m */; };
 		EEEAC0A11E9B6BF100AB7183 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEAC0A01E9B6BF100AB7183 /* AppDelegate.m */; };
 		EEEAC0A41E9B6BF100AB7183 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEAC0A31E9B6BF100AB7183 /* ViewController.m */; };
@@ -36,6 +42,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		407CC74243D7827DF05DE90C /* libPods-MyAppForRecord.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyAppForRecord.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4439BA397A35C9206F5450F /* Pods-MyAppForRecord.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyAppForRecord.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyAppForRecord/Pods-MyAppForRecord.debug.xcconfig"; sourceTree = "<group>"; };
+		EEA8B5391E9DC0DC00503ACC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EEA8B53B1E9DC0E400503ACC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EEA8B53D1E9DC0EC00503ACC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		EEA8B53F1E9DC0F300503ACC /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		EEA8B5411E9DC0FA00503ACC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		EEEAC0991E9B6BF100AB7183 /* MyAppForRecord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAppForRecord.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEEAC09D1E9B6BF100AB7183 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EEEAC09F1E9B6BF100AB7183 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +66,7 @@
 		EEEAC0C01E9B6BF100AB7183 /* MyAppForRecordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAppForRecordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEEAC0C41E9B6BF100AB7183 /* MyAppForRecordUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAppForRecordUITests.m; sourceTree = "<group>"; };
 		EEEAC0C61E9B6BF100AB7183 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC0AD30EE7D31C3ED9DB528E /* Pods-MyAppForRecord.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyAppForRecord.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyAppForRecord/Pods-MyAppForRecord.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +74,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEA8B5421E9DC0FA00503ACC /* SystemConfiguration.framework in Frameworks */,
+				EEA8B5401E9DC0F300503ACC /* MobileCoreServices.framework in Frameworks */,
+				EEA8B53E1E9DC0EC00503ACC /* Security.framework in Frameworks */,
+				EEA8B53C1E9DC0E400503ACC /* Foundation.framework in Frameworks */,
+				EEA8B53A1E9DC0DC00503ACC /* CoreGraphics.framework in Frameworks */,
+				CC7A13C017D7EB5B550D2006 /* libPods-MyAppForRecord.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +100,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06764A794174192CDAF01DE2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EEA8B5411E9DC0FA00503ACC /* SystemConfiguration.framework */,
+				EEA8B53F1E9DC0F300503ACC /* MobileCoreServices.framework */,
+				EEA8B53D1E9DC0EC00503ACC /* Security.framework */,
+				EEA8B53B1E9DC0E400503ACC /* Foundation.framework */,
+				EEA8B5391E9DC0DC00503ACC /* CoreGraphics.framework */,
+				407CC74243D7827DF05DE90C /* libPods-MyAppForRecord.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2548AC0541954BA5BFC58AA1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4439BA397A35C9206F5450F /* Pods-MyAppForRecord.debug.xcconfig */,
+				FC0AD30EE7D31C3ED9DB528E /* Pods-MyAppForRecord.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EEEAC0901E9B6BF100AB7183 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +129,8 @@
 				EEEAC0B81E9B6BF100AB7183 /* MyAppForRecordTests */,
 				EEEAC0C31E9B6BF100AB7183 /* MyAppForRecordUITests */,
 				EEEAC09A1E9B6BF100AB7183 /* Products */,
+				2548AC0541954BA5BFC58AA1 /* Pods */,
+				06764A794174192CDAF01DE2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -150,9 +194,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EEEAC0C91E9B6BF100AB7183 /* Build configuration list for PBXNativeTarget "MyAppForRecord" */;
 			buildPhases = (
+				520F57625034A73E3490D38A /* [CP] Check Pods Manifest.lock */,
 				EEEAC0951E9B6BF100AB7183 /* Sources */,
 				EEEAC0961E9B6BF100AB7183 /* Frameworks */,
 				EEEAC0971E9B6BF100AB7183 /* Resources */,
+				5E9375AFB2D9F229F529E65D /* [CP] Embed Pods Frameworks */,
+				255C6BF7154D254B132A31D2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -271,6 +318,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		255C6BF7154D254B132A31D2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyAppForRecord/Pods-MyAppForRecord-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		520F57625034A73E3490D38A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5E9375AFB2D9F229F529E65D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyAppForRecord/Pods-MyAppForRecord-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EEEAC0951E9B6BF100AB7183 /* Sources */ = {
@@ -425,6 +520,7 @@
 		};
 		EEEAC0CA1E9B6BF100AB7183 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4439BA397A35C9206F5450F /* Pods-MyAppForRecord.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8YHY633A9W;
@@ -437,6 +533,7 @@
 		};
 		EEEAC0CB1E9B6BF100AB7183 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC0AD30EE7D31C3ED9DB528E /* Pods-MyAppForRecord.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8YHY633A9W;
@@ -512,6 +609,7 @@
 				EEEAC0CB1E9B6BF100AB7183 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EEEAC0CC1E9B6BF100AB7183 /* Build configuration list for PBXNativeTarget "MyAppForRecordTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +618,7 @@
 				EEEAC0CE1E9B6BF100AB7183 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EEEAC0CF1E9B6BF100AB7183 /* Build configuration list for PBXNativeTarget "MyAppForRecordUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +627,7 @@
 				EEEAC0D11E9B6BF100AB7183 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
